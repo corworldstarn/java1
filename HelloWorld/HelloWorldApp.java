@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import MyPrint;
 public class HelloWorldApp{
 	public static void main(String[] args) {
 		String[] participant = {"marina", "josipa", "nikola", "vinko", "filipa"};
@@ -23,5 +24,7 @@ public class HelloWorldApp{
         }
         
         System.out.println(answer);
+        MyPrint myprint = new MyPrint();
+        myprint.printString(answer);
 	}
 }
